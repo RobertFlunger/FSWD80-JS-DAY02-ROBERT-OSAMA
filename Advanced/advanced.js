@@ -14,21 +14,21 @@ document.write(minConversion(340));
 
 function yesterday(x) {
 
-	var date1= new Date(x);
+	var date1 = new Date(x);
 
 	date1.setDate(date1.getDate()-1);
 	return(date1)
 
 }
-document.write(yesterday("Feb 23, 2017"));
+document.write(yesterday("12/5/2019"));
 
 /*Advanced Exercise 3 - random colors*/
 
 function random_color () {
-	var red = Math.floor(Math.random() * 265)
-	var green = Math.floor(Math.random() * 265)
-	var blue = Math.floor(Math.random() * 265)
-	var color = "rgb(" + red + "," + green + "," + blue +")"; "rgb("red","green","blue")"
+	var red = Math.floor(Math.random() * 256)
+	var green = Math.floor(Math.random() * 256)
+	var blue = Math.floor(Math.random() * 256)
+	var color = "rgb(" + red + "," + green + "," + blue +")"; 
 	
 	console.log(color)
 	document.body.style.background = color;
