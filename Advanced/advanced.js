@@ -10,6 +10,8 @@ function minConversion(x) {
 
 document.write(minConversion(340));
 
+/*Advanced Exercise 2*/
+
 function yesterday(x) {
 
 	var date1= new Date(x);
@@ -19,3 +21,17 @@ function yesterday(x) {
 
 }
 document.write(yesterday("Feb 23, 2017"));
+
+/*Advanced Exercise 3 - random colors*/
+
+function random_color () {
+	var red = Math.floor(Math.random() * 265)
+	var green = Math.floor(Math.random() * 265)
+	var blue = Math.floor(Math.random() * 265)
+	var color = "rgb(" + red + "," + green + "," + blue +")"; "rgb("red","green","blue")"
+	
+	console.log(color)
+	document.body.style.background = color;
+}
+
+random_color()
