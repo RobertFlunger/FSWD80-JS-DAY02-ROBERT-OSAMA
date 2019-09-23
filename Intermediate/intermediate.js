@@ -5,4 +5,14 @@ function capitalizeFirst(x) {
 	return(upper);
 }
 
-	document.write(capitalizeFirst("i am a web developer"));
+	document.write(capitalizeFirst("i am a web developer") + "<br>");
+
+	function grade ( a , b ,c ) {
+
+		var sum= a+b+c;
+		    average= sum /3;
+
+		    stringgrade= " the sum is: " + sum + " <br>" + " the average is : "+ average ;
+		    return(stringgrade);
+	}
+	document.write(grade( 3 , 4 ,5));
