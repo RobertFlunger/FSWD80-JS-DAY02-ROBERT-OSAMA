@@ -10,3 +10,12 @@ function minConversion(x) {
 
 document.write(minConversion(340));
 
+function yesterday(x) {
+
+	var date1= new Date(x);
+
+	date1.setDate(date1.getDate()-1);
+	return(date1)
+
+}
+document.write(yesterday("Feb 23, 2017"));
