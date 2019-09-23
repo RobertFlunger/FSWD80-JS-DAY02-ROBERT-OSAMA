@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+   <title></title>
+
+</head>
+
+<body>
+
+   <p id='message'></p>
+
+   <script type="text/javascript">
+
+
+    document.getElementById("message").innerHTML =
+
+    "Hello " + person + "! How are you today?";
+
+  try {
+
+  	var person = prompts("Please enter your name", "Harry Potter");
+
+  }
+  catch (err){
+  	console.error("An error has occurred...The" + err.message + "must be fixed");
+  }
+
+   </script>
+
+</body>
+
+</html>
