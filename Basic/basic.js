@@ -27,4 +27,4 @@ function ageCalculator2(x) {
 	return theAge;
 }
 	document.write(ageCalculator2(1990))
-
+	document.write( Math.PI);
