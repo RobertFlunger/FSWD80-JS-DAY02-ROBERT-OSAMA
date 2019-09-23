@@ -1,0 +1,2 @@
+# FSWD80-JS-DAY02-ROBERT-OSAMA
+JavaScript Day 02 Exercises
